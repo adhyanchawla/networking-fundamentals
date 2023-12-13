@@ -11,7 +11,7 @@ example on the basis of sender
 
 7 layers of OSI Model protocols/responsibilities:
 - Application layer: HTTP, FTP, gRPC 
-    - eg POST request with JSON data to HTTPs server --- HTTPs ensures encrytion using TLS
+    - eg POST request with JSON data to HTTPs server --- HTTPs ensures encryption using TLS
 - Presentation layer: Encoding, Serialized data for 
     - eg, converts JSON form to flat byte strings, UTF-8, proxies
 - Session layer: Responsible for connection establishment, TLS (state stored in a server) 
@@ -78,7 +78,7 @@ example on the basis of receiver
             - Data link (2)
             - Physical (not officially covered)
 
-- How to hosts talk to each other
+- How do hosts talk to each other
     - layer 2 concepts
     - each host network card has a unique Media Access Control (MAC)
     - lets say there is a network with hosts A, B, C, D (mesh network)

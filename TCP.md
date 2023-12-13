@@ -101,7 +101,7 @@
 
     - Window Size (RWND) -- Receiver Window
         - 16 bit to 64 KB
-        - Updated with each Acknowldgement
+        - Updated with each Acknowledgement
         - Tells the sender how much to send before waiting for ACK
         - Receiver can decide to decrease the window size (out of memory) -- very critical stuff
     
@@ -148,13 +148,13 @@
     - Precisely CWND = CWND + MSS * MSS / CWND
 
 - Congestion Notification
-    - We dont want routers to drop packets
+    - We don't want routers to drop packets
     - Can routers let us know if they are about to hit the congestion
     - Meet ECN (Explicit congestion notification)
     - routers and middle boxes can tag IP packets with ECN
     - the receiver will copy this bit back to the sender
     - ECN is IP header bit
-    - so routers dont drop packets just let the sender know when you about 
+    - so routers don't drop packets just let the sender know when you about 
 
 - Congestion detection
     - the moment we get timeouts, dup ACKs or packet drops
